@@ -110,6 +110,13 @@ end
 - 頭文字と末尾文字を削除して残りの文字列を表示
 - アルファベットのa, b, c を大文字, その他のアルファベットや数字・記号はそのまま表示
 
+a = gets.chomp
+puts a
+puts a.length
+puts a.reverse
+puts a.upcase
+puts a.chop
+
 ```ruby
 # 入力例
 # ab5?cd

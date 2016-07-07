@@ -24,5 +24,8 @@
 #  puts 1500
 #end
 
-a = STDIN.gets.split.map(&:to_i)
+a = gets.chomp
 puts a
+puts a.length
+puts a.reverse
+puts a.upcase
